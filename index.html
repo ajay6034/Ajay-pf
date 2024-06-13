@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="images/ajay_pic.jpeg" alt="Ajay Kumar Jagu" width="100">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ajay Kumar Jagu">Ajay Kumar Jagu</h1>
+
+          <p class="title">AI Engineer | Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="Ajay Kumar Jagu"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="jaguajay997@gmail.com" class="contact-link">jaguajay997@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12033936494" class="contact-link">+1 (203) 393 6494</a>
+            </div>
+
+          </li>
+
+         <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hamden, Connecticut, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ajay-kumar-jagu/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/ajay6034" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://huggingface.co/Jagukumar" class="social-link">
+              <img src="images/hgg.png" alt="Hugging Face" style="height: 20px;"/>
+            </a>
+              
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Ajay Kumar Jagu, completed Master's in the stream of Data Science from the University Of New Haven and a Bachelor's Degree in Electrical & Electronics Engineering 
+            from KL university. After that I worked as SCADA Engineer about 4 years in the domain of Automation Power Control at APCPDCL. I specialize in transforming complex challenges into 
+            innovative solutions. I expertise in Transformers and LLM's to solve complex challenges into innovative solutions. 
+          </p>
+
+          <p>
+            I enjoy leveraging AI and machine learning to solve real-world problems. 
+            I am particularly fascinated by Large Language Models (LLMs) and their potential to transform industries like Medical, Bussiness. 
+            My interests include working on projects involving Retrieval-Augmented Generation (RAG) and semantic segmentation for self-driving cars. 
+            Staying updated with the latest advancements in AI/ML and continuously learning new techniques drives my passion for collaborative research and pushing the boundaries of technology.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm interested in</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gen - AI Engineer</h4>
+
+                <p class="service-item-text">
+                  
+                  I design and optimize Retrieval-Augmented Generation (RAG) models to enhance information retrieval and generation processes, 
+                  driving innovation in AI solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ML Engineer</h4>
+
+                <p class="service-item-text">
+                  Experienced Machine Learning Engineer adept at developing scalable ML pipelines and collaborating on AI solutions for diverse applications.
+                </p>
+              </div>
+
+            </li>
+
+           
+
+            
+
+          </ul>
+
+        </section>
+
+        
+        <!--
+          - testimonials
+        -->
+<!--
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Recommendation</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Tom John - (CIO / CTO | Hands-On Leader | Strategic Visionary | Technology Architect I Fintech Guru)" width="60" data-testimonials-avatar>
+                </figure>
+
+                          <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                            Tom John - (CIO / CTO | Hands-On Leader | Strategic Visionary | Technology Architect I Fintech Guru)
+                            <a href="https://www.linkedin.com/in/tomvjohn/" style="color: white;">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;">
+                            </a>
+                        </h4>
+                              
+                          
+                            <p style="color: white;">
+                              Pijush is a knowledgeable and capable Data Scientist.
+                              I hand selected him for our internship program and placed him into our AI/NLP and Data Science/ML project teams.
+                                Pijush was able to contribute and excel in his areas of strength and contribute to both individual and team tasks. 
+                                Pijush was able to assess problems and overcome challenges by finding effective solutions to the tasks at hand.
+                              He will be a valuable asset to any company that he works for in the future.
+                            </p>
+                          
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Michael Lederman - (CRO | Strategy | AI/ML | FinTech-Global Banking-Financial Services |)" width="60" data-testimonials-avatar>
+                </figure>
+
+                          <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                            Michael Montenegro Lederman - (Chief Risk Officer | Strategy | AI/ML Data Science | Digital Transformation | FinTech-Global Banking-Financial Services |)
+                            <a href="https://www.linkedin.com/in/michael-montenegro-lederman-0824949/" style="color: white;">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;">
+                            </a>
+                        </h4>
+
+                        
+                            <p style="color: white;">
+                              Pijush is a well rounded data scientist while completing his internship at WelSpot (FinTech) , where I serve as Chief Strategic Risk Officer, 
+                              as a requirement for his completion in the Masters in Data Science at the University of New Haven, 
+                              Pijush has demonstrated strong knowledge and business applicability skills where he built the AI/ML Framework for 
+                              the firm while understanding the strategic and operational implication that this document has for culture evolution. Pijush has good professional acumen, 
+                              listening and initiative to take on AI/ML projects and shows keen interest in learning and applying AI/ML techniques looking after the firm's objectives.
+                            </p>
+                        
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </section>
+-->
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Ajay Kumar Jagu</h4>
+
+              <time datetime="2024-06-03">12 June, 2024</time>
+
+            
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+       
+
+   
+
+
+        <!--
+          - clients
+        -->
+
+       
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+
+
+
+        <section class="timeline">
+
+
+            <h3 class="h3"><center>Ajay Kumar Jagu</center></h3><br>
+            <div style="color: white; display: flex; gap: 15px;">
+              <a href="mailto:jaguajay997@gmail.com" style="color: white;">jaguajay997@gmail.com</a>
+              <span>|</span>
+              <span>Hamden, CT, USA</span>
+              <span>|</span>
+              <a href="https://www.linkedin.com/in/ajay-kumar-jagu/" style="color: white;">linkedin.com/in/ajay-kumar-jagu/</a>
+              <span>|</span>
+              <a href="https://github.com/ajay6034" style="color: white;">github.com/ajay6034</a>
+            </div>
+         </section>    
+          
+          
+        
+        
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Summary</h3>
+          </div>
+              <p class="timeline-text">
+                Accomplished Data Scientist proficient in machine learning, particularly in supervised and unsupervised learning as well as Generative AI (GenAI). Skilled in Python and C++, demonstrating a successful history of creating and integrating sophisticated software systems. Effective in communication and dedicated to fostering innovation in AI/ML solutions
+              </p>
+
+            
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of New Haven</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Masters of Science In Data Science
+              </p>
+              <p class="timeline-text">
+                GPA - (3.33/4.00)
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KL University</h4>
+
+              <span>2014 — 2018</span>
+
+              <p class="timeline-text">
+                Bachelore Of Technology In Electrical and Electronics Engineering
+              </p>
+              <p class="timeline-text">
+                GPA - (8.05/10.00)
+              </p>
+
+            </li>
+
+           
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI Engineer - Mangoes.ai (New York)</h4>
+
+              <span>April 2024 — Present</span>
+
+              <p class="timeline-text">
+                Installation, Configuration, and Solving the issues at the locations where the power interruptions happen.<br>
+                1. This role involves enhancing retrieval real time data from the devices like IED's, Modems which are installed at the locations.
+                <br> 2. Responsibilities include monitoring the data, configuring the modems, finding the issues and attending them to reduce the 
+                the power interruption time for the consumers.
+              </p>
+
+            </li>
+
+            
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Skills</h3>
+          </div>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper" style="color: white;">
+                1. Programming Languages: Python, C/C++.<br>
+                2. Frameworks: PyTorch, Keras, TensorFlow<br>
+                3. Domain: ML Algorithms, Deep Learning, Statistics, NLP, EDA.<br>
+                4. Scraping Tools: Selenium, Beautiful Soup.<br>
+                5. NLP Framework: RAG, GAN, Transformers.<br>
+                6. Database: SQL, MongoDB, Chroma DB, Pinecone, Neo4j.<br>
+                7. Cloud Platforms:EC2, S3, ECR, EMR, Snowflake, Lambda.<br>
+                8. Deployment Framework: Docker, Langchain, Hugging Face<br>
+                9. LLMs: GPT, LLAMA, Claude, Gemini Pro, Mistral, Whisper, Prompt Engineering.<br>
+                10. Microsoft Excel.<br>
+            </div>
+            
+
+              
+            </li>
+
+          </ul>
+
+        </section>
+        <br>
+
+  
+
+        <section class="ACHIEVEMENTS">
+          
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Achievements</h3>
+          </div>
+
+          <ul class="skills-list content-card">
+
+            
+
+              <div style="color: white;">
+               <p><b><h4>Paper Publication at IJET</h4></b></p>
+               <br>
+              
+               ** Collaborated with IJET for paper publication through KL University in the domain of Power Electronics.
+                <br><br>
+               <p><b><h4>2. The title of the paper is: "Observation of P-V And I-V Characteristics Before and After Partial Shadow Effect on Photovoltaic Array Using Boost Converter".</h4></b></p><br>
+                
+               **We worked as team work to implement this kind of idea, without team effort i think it cannot be implemented as efficiently. 
+                My responsibilities as team head to collaborate with team mate retrieving the work from him and taking feedback in difficulty of the work.
+                Mainly I worked on matlab to get the expected results and written the paper from the scratch to end by understanding the format of IJET.
+                 
+            </div>
+            
+
+              
+            
+
+          </ul>
+
+        </section>
+
+
+        
+        
+        
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio (Project)</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/ajay6034/lane-detection">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/lane detection.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lane Detection</h3>
+
+                <p class="project-category">Deep Learning with Stable Diffusiom </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/ajay6034/Medical-Chat-bot-Yale">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/medical_chatbot.jpeg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Medical Chat bot</h3>
+
+                <p class="project-category">Generative AI</p>
+
+              </a>
+            </li>
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/ajay6034/Script-to-Story-Board">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/Script-to-Story-Board.jpeg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Script-to-Story-Board</h3>
+
+                <p class="project-category">Deeep Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/ajay6034/Gemini-pro-">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/Invoice data Extraction.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Invoice Data Extraction</h3>
+
+                <p class="project-category">Generative AI</p>
+
+              </a>
+            </li>
+
+            
+
+            
+           
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      
+
+
+
+
+    
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
